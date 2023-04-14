@@ -19,6 +19,9 @@
 * LSP: 리스코프 치환 원칙(Liskov Substitution Principle)
   * 상호 대체 가능한 구성요소를 이용해 소프트웨어 시스템을 만들 수 있으려면, 이들 구성요소는 반드시 서로 치환 가능해야 한다는 계약을 지켜야함
 
+* ISP: 인터페이스 분리 원칙(Interface Sergergation Principle)
+  * 고수준 정책을 구현하는 코드는 저수준 세부사항을 구현하는 코드에 절대 의존해서는 안됨
+
 * DIP: 의존성 역전 원칙(Dependency Inversion Principle)
   * 고수준 정책을 구현하는 코드는 저수준 세ㅜ사항을 구현하는 코드에 절대 의존해서는 안되고 세부사항 정책에 의존해야함
 
